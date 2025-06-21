@@ -38,6 +38,7 @@ img {
     margin-right: 1rem;
 }
 .testimonials {
+    max-width: 1440px;
     display: grid;
     padding-inline: clamp(2rem, 10vw, 10rem);
     padding-block: 2rem;
@@ -62,7 +63,6 @@ img {
     margin-bottom: 1rem;
 }
 .testimonials__user-info {
-    border: 1px red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,6 +127,5 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding-inline: clamp(2rem, 10vw, 10rem);
     }
 }
